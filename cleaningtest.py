@@ -36,5 +36,11 @@ df_clean = df[~df["review_text"].apply(is_noise)]
 # Fjern duplikater
 df_clean = df_clean.drop_duplicates(subset=["review_text"])
 
-# Lagre ny fil
+# Reset index after cleaning
+df_clean = df_clean.reset_index(drop=True)
+
+# Lag nye ID-er fra 1 til n på den rensede filen
+df_clean["review_id"] = range(1, len(df_clean) + 1)
+
+# Lagre den oppdaterte (rensede + nye ID-er) filen
 df_clean.to_csv("reviews_clean.csv", index=False)
