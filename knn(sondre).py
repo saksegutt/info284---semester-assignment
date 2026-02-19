@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, classifi
 # ----------------------------
 # 1) Load data
 # ----------------------------
-path_in = "Datacleaned_reviews.csv"  # <- endre hvis nødvendig
+path_in = "Datacleaned_reviews(sondre).csv"  # <- endre hvis nødvendig
 df = pd.read_csv(path_in)
 
 # Forventer kolonnene: review_text og score
