@@ -72,7 +72,7 @@ score_idx = cols.index("score")
 cols.insert(score_idx + 1, "predicted_score")
 df = df[cols]
 
-path_out = "(Model 1) reviews_knn.csv"
+path_out = "(Amanda) reviews_knn.csv"
 df.to_csv(path_out, index=False)
 
 print("\nFerdig. Lagret som:", path_out)
