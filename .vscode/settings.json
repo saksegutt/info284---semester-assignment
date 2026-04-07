@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+  "jupyter.jupyterServerType": "local",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  }
+}
