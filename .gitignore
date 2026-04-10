@@ -1,1 +1,8 @@
 ord.py
+
+# Notebook conflict/backup artifacts
+Main/mainMaster-kopi.ipynb
+Main/mainMaster_fixed.py
+Main/mainMaster_base.ipynb
+Main/mainMaster_stashed.ipynb
+Main/mainMaster_upstream.ipynb
